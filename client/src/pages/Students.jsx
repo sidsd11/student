@@ -185,7 +185,7 @@ const Students = () => {
                                     <button
                                     className='px-4 py-2 rounded-full bg-linear-to-br from-indigo-500 to-indigo-900 text-white font-medium cursor-pointer transition-all hover:scale-110'
                                     onClick={() => setCreateNewStudentRecord(true)}>
-                                        + Add New Stduent Record
+                                        + Add a new stduent record
                                     </button>
                                 </div>
 
@@ -195,7 +195,7 @@ const Students = () => {
                                         <Search className='size-5 inline-block mr-4'/>
                                         <input
                                         type='text'
-                                        placeholder='Search by name...'
+                                        placeholder={studentRecords.length === 0 ? 'No records found' : 'Seach by name in ' + studentRecords.length + ' ' + (studentRecords.length === 1 ? 'record' : 'records')}
                                         className='w-full'
                                         value={searchText}
                                         onChange={(e) => setSearchText(e.target.value)}
