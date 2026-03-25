@@ -104,7 +104,7 @@ const Login = () => {
                         </div>
 
                         {/* Submit */}
-                        <button className='w-full py-2.5 rounded-full bg-linear-to-br from-indigo-500 to-indigo-900 text-white font-medium'>
+                        <button className='w-full py-2.5 rounded-full bg-linear-to-br from-indigo-500 to-indigo-900 text-white font-medium hover:scale-110 transition-all cursor-pointer'>
                             {state}
                         </button>
                     </form>

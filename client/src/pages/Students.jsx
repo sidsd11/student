@@ -262,7 +262,7 @@ const Students = () => {
                                             <button
                                             key={index}
                                             onClick={() => handlePageChange(index + 1)}
-                                            className={`px-3 py-1 rounded-md text-sm transition ${currentPage === index + 1 ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 hover:scale-110 cursor-pointer text-black'
+                                            className={`px-3 py-1 rounded-md text-sm transition-all ${currentPage === index + 1 ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 hover:scale-110 cursor-pointer text-black'
                                             }`}>
                                                 {index + 1}
                                             </button>
