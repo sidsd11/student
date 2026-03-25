@@ -48,8 +48,8 @@ const Navbar = () => {
                                     </li>
                                 }
                                 {
-                                    currPage !== '/students' &&
-                                    <li onClick={() => navigate('/students')} className='py-2 px-2 whitespace-nowrap rounded-lg transition-all cursor-pointer hover:bg-linear-to-r hover:from-blue-100 hover:to-purple-200 hover:scale-110'>
+                                    currPage !== '/student-records' &&
+                                    <li onClick={() => navigate('/student-records')} className='py-2 px-2 whitespace-nowrap rounded-lg transition-all cursor-pointer hover:bg-linear-to-r hover:from-blue-100 hover:to-purple-200 hover:scale-110'>
                                         Student records
                                     </li>
                                 }
